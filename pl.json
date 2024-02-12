@@ -1,0 +1,654 @@
+{
+  "index": {
+    "metadata": {
+      "title": "Strona główna",
+      "description": "Dowiedz się więcej o misji Fundacji FROG: wsparcie dla cudzoziemców w Polsce, współpraca z organami państwowymi, realizacja projektów integracyjnych. Odwiedź nadiia.pl, aby uzyskać konsultacje i wygenerować dokumenty."
+    },
+    "title": "Next Aplikacja",
+    "auth_by_tel": "Autoryzacja za pomocą numeru telefonu",
+    "await_sms": "W ciągu 3 minut na podany przez Ciebie numer % zostanie wysłany kod SMS. Proszę wprowadź kod.",
+    "old_sms": "Na podany przez Ciebie numer % został już wysłany kod SMS. Proszę wprowadź kod.",
+    "new_sms": "Nowy kod SMS został wysłany na podany numer %. Proszę wprowadź kod.",
+    "enter_phone": "Proszę wprowadź swój % polski % numer telefonu w celu otrzymania kodu SMS",
+    "check_active_phone": "Proszę zauważ, że numer telefonu % musi być aktywowany %",
+    "pattern_phone": "Proszę wprowadź 9-cyfrowy polski numer telefonu",
+    "get_code": "Otrzymaj kod",
+    "required_field": "To pole jest wymagane",
+    "await_send_new_code": "Kod możesz wysłać ponownie za",
+    "send_new_code": "Wyślij nowy kod",
+    "change_tel": "Wróć i wprowadź inny numer telefonu",
+    "confirm": "Potwierdź",
+    "supported_by": "Wspierane przez"
+  },
+  "header": {
+    "auth": {
+      "login": "Zaloguj sie",
+      "register": "Rejestr",
+      "form": {
+        "phone_entry": "Wprowadź swój <span>polski</span> numer telefonu, aby otrzymać kod SMS",
+        "phone_activation": "Należy pamiętać, że numer telefonu <span>musi</span> być aktywowany</span>.",
+        "SMS_receipt_start": "W ciągu 3 minut na podany numer ",
+        "SMS_receipt_end": " zostanie wysłany kod SMS. Wprowadź kod",
+        "code_entry_start": "Kod SMS został już wysłany na podany wcześniej numer ",
+        "code_entry_end": " Wprowadź kod",
+        "new_code_start": "Nowy kod SMS został wysłany na podany numer ",
+        "new_code_end": " Wprowadź kod"
+      }
+    },
+    "burger": "Menu",
+    "menu": {
+      "procedures": "Procedury",
+      "services": "Usługi",
+      "consultations": "Konsultacje",
+      "courses": "Kursy",
+      "knowledge_base": "Baza wiedzy",
+      "quit": "Wyloguj",
+      "btn_green": "Zapis na konsultację",
+      "btn_blue": "Kursy języka polskiego za 0 zł"
+    }
+  },
+  "social": {
+    "email": "Nasza poczta",
+    "facebook": "Nasz Facebook",
+    "instagram": "Nasz Instagram",
+    "telegram": "Nasz Telegram"
+  },
+  "footer": {
+    "description": "Pomagamy rozwiązywać problemy integracji w Polsce",
+    "policy": {
+      "privacy": "Policy Privacy",
+      "cookies": "Policy Cookies",
+      "sale": "Regulamin sprzedaży",
+      "error_title": "Błąd strony Policy!"
+    },
+    "section": "Sekcja",
+    "foundation": "Fundacja Rozwoju „Oprócz Granic” to organizacja społeczna (non-profit), zarejestrowana w Polsce, NIP 5213383683, KRS 0000249833, REGON 140432633."
+  },
+  "cookies": {
+    "content": "Gromadzimy pliki cookie, aby analizować ruch i wydajność naszej witryny; nigdy nie zbieramy żadnych danych osobowych.",
+    "read": "Czytaj więcej",
+    "allow": "Akceptuję wszystko",
+    "disallow": "Nie akceptuje"
+  },
+  "errors": {
+    "something_wrong": "Coś jest nie tak",
+    "error_saving_code": "Błąd podczas zapisywania kodu, spróbuj ponownie",
+    "already_have_active_code": "Masz już aktywny kod",
+    "incorrect_code": "Podany nieprawidłowy kod sms",
+    "bad_data": "Podane nieprawidłowe dane do złożenia zapytania",
+    "many_change_numbers": "Zmiana numeru jest zablokowana, zaloguj się z poprzednich numerów lub spróbuj ponownie później",
+    "many_codes_enter": "Próby wprowadzenia kodu są blokowane, spróbuj ponownie później",
+    "many_repeated_to_resend": "Przekroczono limit ponownego wysyłania kodów w wiadomości SMS. Spróbuj ponownie później",
+    "error_response": "Błąd! Spróbuj ponownie",
+    "error_get_cases": "Nie można załadować listy dostępnych testów",
+    "error_retry": "Spróbuj ponownie!"
+  },
+  "login_page": {
+    "metadata": {
+      "title": "Zaloguj się do konta za pomocą numeru telefonu",
+      "description": ""
+    }
+  },
+  "procedures": {
+    "metadata": {
+      "title": "Moje procedury",
+      "description": ""
+    },
+    "all": {
+      "metadata": {
+        "title": "Wszystkie procedury",
+        "description": ""
+      }
+    },
+    "edit": {
+      "metadata": {
+        "title": "Edycja - ",
+        "description": ""
+      }
+    },
+    "final_check": {
+      "metadata": {
+        "title": "Sprawdzanie udzielonych odpowiedzi dla procedury ",
+        "description": ""
+      }
+    },
+    "consent_page": {
+      "metadata": {
+        "title": " - Początek",
+        "description": ""
+      }
+    },
+    "title": "Procedury",
+    "card": {
+      "details": "Pokaż szczegóły",
+      "start": "Przystąpić do egzaminu",
+      "time": "Przybliżony czas podróży % minut",
+      "continue": "Kontynuuj zamówienie",
+      "thanks": "Dziękujemy za udział w ankiecie!",
+      "back_to_test": "Powrót do wyboru testów",
+      "additional_information": "Dodatkowe informacje",
+      "application_number": "Numer wniosku",
+      "date_of_submission": "Data wypełnienia",
+      "application_status": "Status wniosku",
+      "completed": "Zakończone",
+      "editable": "Dostępne do edycji",
+      "download": "Download"
+    },
+    "option_menu": {
+      "archive": "Zarchiwizuj",
+      "duplicate": "Zduplikuj",
+      "rename": "Zmień nazwę",
+      "delete": "Usuń",
+      "btn_cancel": "Anuluj",
+      "warning": "Czy na pewno chcesz % ten zabieg?"
+    },
+    "tabs": {
+      "active": "Aktywne",
+      "closed": "Zamknięte",
+      "archive": "Archiwum"
+    },
+    "process_page": {
+      "metadata": {
+        "title": "Uwaga",
+        "description": ""
+      },
+      "attention": "Uwaga!",
+      "unfinished_survey": "Masz już niedokończone badanie.",
+      "description": "Odpowiedzi na niedokończone badanie będą dostępne w twoim koncie osobistym, w zakładce Procedury.",
+      "question": "Czy chcesz rozpocząć nowe badanie?",
+      "new_survey": "Rozpocznij nowe badanie"
+    },
+    "questions_page": {
+      "metadata": {
+        "title": "Sekcja pytań",
+        "description": ""
+      },
+      "next_question": "Następne pytanie",
+      "previous_question": "Poprzednie pytanie",
+      "loading": "Ładowanie...",
+      "saving": "Ratować ...",
+      "redirect": "Trwa przekierowanie...",
+      "back_finish": "Przejdź do listy odpowiedzi",
+      "check_page": {
+        "title": "Odpowiedziałeś na wszystkie niezbędne pytania. Proszę sprawdź swoje odpowiedzi przed zakończeniem testu.",
+        "page": "Strona",
+        "your_answer": "Twoja odpowiedź:",
+        "edit_answer": "Edytuj odpowiedź",
+        "previous_page": "Poprzednia strona",
+        "next_page": "Następna strona",
+        "without_checking": "Zakończ bez sprawdzania",
+        "finish": "Kompletny",
+        "save_new": "Zapisz nową odpowiedź",
+        "cancel": "Anuluj poprawkę"
+      }
+    },
+    "card_rating": {
+      "rating_thanks": "Dziękujemy za Twoją ocenę!",
+      "rating_text": "Proszę ocenić, jak zrozumiałe było to pytanie",
+      "clear": "Wszystko jest jasne",
+      "not_clear": "Nic nie jest niejasne"
+    },
+    "request_form": {
+      "title": "Nie znaleźliśmy odpowiedniej procedury dla Ciebie?",
+      "subtitle": "Możesz poinformować nas o swoim problemie, wypełniając ten formularz, a my znajdziemy dla Ciebie rozwiązanie.",
+      "placeholder": "Opisz swoją sytuację i jaką procedurę Cię interesuje",
+      "label": "Twój adres e-mail",
+      "submit": "Poproś o procedurę"
+    },
+    "filter": {
+      "more": "Więcej",
+      "placeholder": "Filtruj według kategorii",
+      "reset": "Reset wszystko",
+      "apply": "Zastosować"
+    },
+    "big": {
+      "start": "Rozpocznij test",
+      "back": "Powrót do opisu",
+      "request_access": "Poproś o dostęp",
+      "input_email": "Wprowadź swój adres e-mail, a powiadomimy Cię, kiedy procedura zostanie otwarta",
+      "send": "Wyślij",
+      "confirm_title": "E-mail został pomyślnie wysłany",
+      "confirm_text": "Wyślemy e-mail na podany przez Ciebie adres, gdy procedura będzie dostępna do ukończenia",
+      "code_text": "Jeśli masz już kod dostępu, wprowadź go poniżej",
+      "code_error": "Nieprawidłowy kod",
+      "notice_btn": "Powiadom o otwarciu"
+    },
+    "cards": {
+      "category": "Kategoria",
+      "share": "Udostępnij",
+      "from": "od",
+      "up_to": "do",
+      "minutes": "minut",
+      "to_all_procedures": "Przejdź do wszystkich procedur",
+      "go": "Przejdź",
+      "for_whom": "dla kogo",
+      "number_of_procedures": "liczba procedur",
+      "you_learn": "co się dowiesz"
+    },
+    "title_all": "Proszę wybierz test, który chcesz przeprowadzić",
+    "disclaimer_sm_title": "Opis testu i dodatkowe informacje",
+    "disclaimer_sm_btn": "Kontynuuj",
+    "privacy_default_title": "Akceptuję warunki i zasady testu",
+    "found_an_error": "Znalazłeś błąd? Daj nam znać",
+    "add_new_procedure": "Dodaj nową procedurę",
+    "interesting": "Być może będzie to dla Ciebie interesujące",
+    "category": "Kategorie",
+    "back_to_procedure": "Przejdź do procedury",
+    "feedbacks": {
+      "title": "Zgłoś problem",
+      "description": "Proszę opisz problem, z jakim spotkałeś się podczas korzystania z naszej strony. Twoje szczegółowe wyjaśnienie pomoże nam poprawić działanie strony.",
+      "name": "Wpisz swoje imię (literami łacińskimi)",
+      "placeholder_name": "Imię",
+      "email": "Wpisz swój email",
+      "text": "Opisz problem",
+      "privacy": "Wyrażam zgodę na przetwarzanie moich danych osobowych"
+    }
+  },
+  "qa_page": {
+    "metadata": {
+      "title": "Pytania i odpowiedzi",
+      "description": "Szukasz odpowiedzi na pytania prawne lub specjalistyczne? Nasza strona 'Pytania i odpowiedzi' oferuje profesjonalne odpowiedzi od wykwalifikowanych prawników i specjalistów. Zadaj swoje pytanie i otrzymaj wiarygodne, precyzyjne i zrozumiałe wyjaśnienia. Ta strona jest cennym źródłem dla wszystkich, którzy szukają informacji i rozwiązań w różnych dziedzinach, w tym prawniczych i specjalistycznych. Skorzystaj z wygodnego formularza, aby wysłać swoje pytanie i dołącz do społeczności otrzymującej dostępne i wiarygodne odpowiedzi."
+    },
+    "title": "Pytania i odpowiedzi",
+    "subtitle": "",
+    "error_title": "Błąd strony QA!",
+    "card": {
+      "see_more": "Zobacz więcej:",
+      "updeted": "Zaktualizowano "
+    },
+    "form": {
+      "title": "Zadaj nam pytanie",
+      "email": "Opisz swoje pytanie",
+      "text": "Opisz swoje pytanie",
+      "consent": "Zgoda na przetwarzanie danych osobowych",
+      "submit": "Wysłać"
+    },
+    "success": {
+      "thank": "Dziękuję!",
+      "info": "Twoje pytanie zostało pomyślnie wysłane. Poinformujemy Cię, gdy tylko odpowiedź będzie gotowa"
+    },
+    "toggle_hide": "Ukrywać",
+    "toggle_view": "Zobacz więcej"
+  },
+  "organizations": {
+    "metadata": {
+      "title": "Organizacje",
+      "description": "Szukasz przydatnych organizacji i instytucji państwowych w Polsce? Nasza strona 'Organizacje' zapewnia kompleksową informację, przydatną dla cudzoziemców, z łatwym podziałem według regionów. Znajdziesz tu niezawodne i sprawdzone kontakty, pomoc i wsparcie, oraz łatwość nawigacji wśród różnorodności usług. To idealne źródło dla tych, którzy szukają orientacji w lokalnych instytucjach państwowych i społecznych, a także dla cudzoziemców potrzebujących specjalistycznej pomocy i informacji."
+    },
+    "title": "Organizacje",
+    "error_title": "Błąd strony Organizacje!",
+    "tabs": {
+      "search": "Wyszukiwanie",
+      "region": "Województwie, powiecie, gminie",
+      "index": "Indeksowi"
+    },
+    "select": {
+      "wojewodstwo": "Województwo",
+      "powiat": "Powiat",
+      "gmina": "Gmina"
+    },
+    "button": {
+      "button": "Szukaj",
+      "print": "Drukuj",
+      "back": "Powrót do pozostałych organizacji"
+    },
+    "loading": "Ładowanie...",
+    "card": {
+      "button": "Otwórz na mapie",
+      "link": "Więcej informacji",
+      "reaction": "Dziękujemy za reakcję!",
+      "rating": {
+        "rating": "Proszę ocenić, jak przydatne były informacje o tej organizacji?",
+        "min": "Minimalnie",
+        "max": "Maksymalnie"
+      },
+      "error": "Znalazłeś błąd? Powiadom nas",
+      "rating_thanks": "Dziękujemy za Twoją ocenę!",
+      "add_new_procedure": "Dodaj nową procedurę",
+      "toggle_hide": "Ukrywać",
+      "toggle_view": "Zobacz więcej"
+    }
+  },
+  "consultations": {
+    "metadata": {
+      "title": "Zapisz się na konsultację",
+      "description": "",
+      "slug_title": "Konsultacja:",
+      "slug_description": ""
+    },
+    "title": "Konsultacje",
+    "error_title": "Strona konsultacji Błąd!",
+    "tabs": {
+      "new": "Nowe",
+      "active": "Przypisane",
+      "past": "Przeszłe"
+    },
+    "loading": "Ładowanie...",
+    "error": "Błąd!",
+    "empty": "Obecnie nie ma żadnych konsultacji w tej kategorii",
+    "card": {
+      "title": "Konsultacje z doradcą",
+      "when": "Kiedy",
+      "lawyer": "Doradca",
+      "status": "Status",
+      "where": "Gdzie",
+      "duration": "Czas trwania",
+      "tariff": "Usługa",
+      "select": "Wybierz",
+      "about": "o",
+      "languages": "Języki",
+      "time": "Wkrótce",
+      "include": "Co zawiera",
+      "exclude": "Co nie obejmuje",
+      "or": "lub",
+      "minutes": "minut",
+      "consultation_link": "Spotkanie: link/addres"
+    },
+    "booking": "Rezerwacja",
+    "booking_consultation": "Rezerwacja konsultacji",
+    "new": {
+      "tariff": "Wybrana taryfa",
+      "select": {
+        "languages": "Wybierz możliwe języki",
+        "format": "Wybierz formę konsultacji",
+        "specialist": "Wybierz specjalistę",
+        "placeholder": "Kliknij aby wybrać",
+        "datetime": "Wybierz datę i godzinę",
+        "button": "Wybierać"
+      },
+      "date": "Wybierz datę i godzinę",
+      "empty": "Wybierz datę, aby wyświetlić przedziały czasowe dla wybranej sesji doradztwa",
+      "confirmation": {
+        "format": "Format konsultacji",
+        "languages": "Dostępne języki",
+        "specialist": "Wybrany specjalista ds",
+        "datetime": "Wybrana data i godzina",
+        "duration": "Czas trwania konsultacji",
+        "disclaimer": "Zastrzeżenie",
+        "submit": "Składać",
+        "notfound": "notfound",
+        "error": "Błąd"
+      },
+      "success": {
+        "created": "Twoja rejestracja powiodła się!",
+        "link": "Zobacz wpis"
+      },
+      "slot": {
+        "online": "Online",
+        "office": "W biurze"
+      }
+    },
+    "payment": {
+      "loading": {
+        "title": "Odbieranie szczegółów rezerwacji",
+        "details": "Możesz potrzebować tekstu również tutaj lorem ipsum dolor sit amet consectetur"
+      },
+      "error": {
+        "title": "Error",
+        "details": "Więcej tekstu",
+        "button": "Spróbuj ponownie"
+      },
+      "canceled": {
+        "title": "Rezerwacja anulowana",
+        "details": "Tekst wyjaśnienia i zachęta do kliknięcia przycisku poniżej, aby wrócić i spróbować ponownie"
+      },
+      "expired": {
+        "title": "Ten link wygasł. Zarezerwuj ponownie i spróbuj ponownieа",
+        "details": "Tekst wyjaśnienia i zachęta do kliknięcia przycisku poniżej, aby wrócić i spróbować ponownie"
+      },
+      "success": {
+        "title": "Twoja płatność powiodła się!",
+        "details": "Po prostu zamknij tę stronę lub kliknij poniższy przycisk, aby przejrzeć swoje porady",
+        "button": "Moje konsultacje"
+      }
+    }
+  },
+  "payment": {
+    "customer": "Dane klienta",
+    "required": "Pole wymagane",
+    "first_name": "Imię",
+    "last_name": "Nazwisko",
+    "email": "E-mail",
+    "phone": "Numer telefonu",
+    "other": "Inny płatnik",
+    "invoice": "Potrzebna faktura",
+    "legal": "Podmiot prawny",
+    "company_name": "Nazwa firmy",
+    "address": "Adres",
+    "post": "Kod pocztowy",
+    "city": "Miasto",
+    "country": "Kraj",
+    "individual": "Osoba fizyczna",
+    "promo": "Masz kod promocyjny",
+    "promo_enter": "Wprowadź kod promocyjny",
+    "apply": "Zastosować",
+    "promo_success": "Kod promocyjny zastosowany pomyślnie",
+    "invalid": "Nieprawidłowy kod",
+    "without_discount": "Suma bez rabatu",
+    "discount": "Rabat",
+    "total": "Całkowity",
+    "pay": "Płatność",
+    "cancel": "Anuluj",
+    "payment_link": "Przejdź do strony systemu płatności",
+    "timer": {
+      "title": "Prosimy o dokonanie płatności w określonym czasie",
+      "expired": "Link wygasł. Zarezerwuj ponownie i spróbuj ponownie"
+    }
+  },
+  "privacy": {
+    "metadata": {
+      "title": "Polityka prywatności",
+      "description": ""
+    },
+    "title": "Polityka prywatności",
+    "content": "Spis treści:"
+  },
+  "thematica": {
+    "metadata": {
+      "title": "Działy tematyczne",
+      "description": "",
+      "slug_title": " - artykuły",
+      "slug_description": ""
+    },
+    "title": "Działy tematyczne",
+    "moreBtn": "Czytaj więcej",
+    "formulars": "Formularze",
+    "last_update": "Ostatnia aktualizacja",
+    "error_title": "Błąd strony Formulars!",
+    "error_text": "Błąd strony Formulars!"
+  },
+  "sale_page": {
+    "metadata": {
+      "title": "Regulamin sprzedaży",
+      "description": ""
+    },
+    "error_title": "Błąd strony Warunków Sprzedaży!"
+  },
+  "glossary": {
+    "metadata": {
+      "title": "Definicje słów",
+      "description": ""
+    },
+    "title": "DEFINICJE SŁÓW",
+    "placeholder": "Zacznij pisać",
+    "error_title": "Błąd strony Słowniczka",
+    "note": "Notatka Redaktora",
+    "exclamation": "Ten wykrzyknik nie stanowi interpretacji prawnej i nie jest opinią redaktora mającą na celu uproszczenie zrozumienia podstawowej definicji.",
+    "info": "Poniższe definicje mogą okazać się przydatne"
+  },
+  "formulars": {
+    "metadata": {
+      "title": "Formularze",
+      "description": "",
+      "slug_title": " - Formularz",
+      "slug_description": ""
+    },
+    "title": "Formularze",
+    "download": "Pobierz dokument",
+    "hide": "Ukryj",
+    "view": "Zobacz więcej",
+    "additional": "Dodatkowe dokumenty do tego formularza",
+    "similar": "Podobne formularze",
+    "categories": "Kategorie"
+  },
+  "about": {
+    "metadata": {
+      "title": "O nas",
+      "description": "Dowiedz się więcej o misji Fundacji FROG: wsparcie dla cudzoziemców w Polsce, współpraca z organami państwowymi, realizacja projektów integracyjnych. Odwiedź nadiia.pl, aby uzyskać konsultacje i wygenerować dokumenty."
+    },
+    "title": "O nas",
+    "content": "Spis treści:",
+    "error_title": "Informacje o nas Błąd strony!"
+  },
+  "legislation": {
+    "metadata": {
+      "title": "Ustawodawstwo",
+      "description": ""
+    },
+    "title": "Ustawa",
+    "hide": "Ukryj",
+    "view": "Zobacz więcej",
+    "categories": "Kategorie",
+    "error_title": "Błąd strony Legislacja!"
+  },
+  "news": {
+    "published_date": "Opublikowano",
+    "updated_date": "Zaktualizowano",
+    "slider_title": "Czytaj powiązane wiadomości",
+    "slider_main": "Najnowsze wpisy o fundacji",
+    "show_all": "Pokaż wszystko",
+    "rating": {
+      "text": "Proszę daj nam znać, jak przydatna była ta wiadomość",
+      "not_interesting": "Nieinteresujące",
+      "very_interesting": "Bardzo interesujące"
+    },
+    "socials": "Podziel się tym",
+    "latest_page": {
+      "metadata": {
+        "title": "Najnowsze",
+        "description": "Tutaj piszemy o najnowszych i przydatnych zagadnieniach oraz wydarzeniach, które mogą Cię zainteresować"
+      }
+    },
+    "blog_page": {
+      "metadata": {
+        "title": "Nasz blog",
+        "description": "Tutaj piszemy o najnowszych i przydatnych zagadnieniach oraz wydarzeniach, które mogą Cię zainteresować"
+      }
+    },
+    "news_page": {
+      "metadata": {
+        "title": "Nasze aktualności",
+        "description": "Tutaj piszemy o najnowszych i przydatnych zagadnieniach oraz wydarzeniach, które mogą Cię zainteresować"
+      }
+    },
+    "title_all": "Najnowsze",
+    "title_blog": "Nasz blog",
+    "title_news": "Nasze aktualności",
+    "subtitle": "Tutaj piszemy o najnowszych i przydatnych zagadnieniach oraz wydarzeniach, które mogą Cię zainteresować",
+    "error_title": "Błąd strony Wiadomości!",
+    "tabs": {
+      "all": "Wszystko",
+      "blog": "Blog",
+      "news": "Wiadomości"
+    },
+    "read": "Czytaj",
+    "tags": "Eksploruj powiązane tematy",
+    "next": "Następny artykuł",
+    "previous": "Poprzedni artykuł"
+  },
+  "profile": {
+    "button_edit": "Edytuj dane",
+    "button_delete": "Usuń konto",
+    "settings": "Ustawienia",
+    "support": "Wsparcie",
+    "safety": "Bezpieczeństwo i prywatność",
+    "notifications_settings": "Ustawienia powiadomień",
+    "favorites": "Ulubione",
+    "title": "Mój profil",
+    "name": "Imię",
+    "surname": "Nazwisko",
+    "tel": "Telefon",
+    "email": "E-mail",
+    "button_save": "Zapisz",
+    "text": "Wprowadź nowe dane i kliknij przycisk Zapisz",
+    "error_title": "Błąd strony Profilu!",
+    "success_text": "Nowe dane zostały pomyślnie zapisane",
+    "adding_email": {
+      "button_add": "Dodaj e-mail",
+      "button_change": "Zmień e-mail",
+      "text_adding_email": "Proszę dodać adres e-mail do swojego konta, aby uzyskać dostęp do wszystkich stron witryny",
+      "text_email_confirm": "Na ten adres e-mail została wysłana wiadomość weryfikacyjna. Kliknij link i naciśnij przycisk „Potwierdź”. Jeśli nie otrzymałeś wiadomości, poproś o ponowne.",
+      "text_email_confirm_resend": "Wiadomość e-mail z potwierdzeniem została wysłana ponownie. Jeśli nie otrzymałeś wiadomości e-mail, skontaktuj się z nami pod adresem ",
+      "text_email_confirm_resend_end": " aby rozwiązać problem.",
+      "repeat_email_link": "Wyślij ponownie",
+      "email_settings": "Ustawienia e-mail",
+      "error_text": "Nieprawidłowa nazwa e-mail"
+    },
+    "success_page": {
+      "success_text": "Po prostu zamknij tę stronę lub kliknij przycisk poniżej, aby przejść do swojego konta osobistego",
+      "success_title": "Email został pomyślnie potwierdzony!",
+      "button": "Konto osobiste"
+    }
+  },
+  "notification_form": {
+    "attention": {
+      "title": "Uwaga!",
+      "subtitle": "Nie masz przypisanego adresu e-mail do swojego konta",
+      "text": "Naciśnij poniższy przycisk, aby dodać teraz adres e-mail lub przejdź do swojego ",
+      "link": "konta osobistego",
+      "btn_blue": "Podłącz e-mail teraz"
+    },
+    "input": {
+      "title": "Wprowadź swój adres e-mail",
+      "checkbox": "Klikając przycisk wyślij, wyrażasz zgodę na przetwarzanie ",
+      "link": "danych osobowych",
+      "btn_blue": "Wyślij e-mail"
+    },
+    "confirm": {
+      "title": "Wysłano wiadomość e-mail",
+      "text": "Na Twój adres e-mail {email} została wysłana wiadomość e-mail z linkiem potwierdzającym. Proszę otworzyć e-mail i kliknąć link, aby potwierdzić."
+    },
+    "error": {
+      "title": "Błąd potwierdzenia",
+      "text": "Twój kliknięty link potwierdzający nie został zarejestrowany (proszę kliknij link ponownie i naciśnij przycisk ponownie). Jeśli nie otrzymałeś e-maila, {link} i spróbuj ponownie podpiąć swoją skrzynkę e-mail.",
+      "link": "przejdź do swojego konta osobistego"
+    },
+    "btn_confirm": "Potwierdziłem",
+    "btn_loading": "W trakcie",
+    "btn_back": "Wróć"
+  },
+  "form": {
+    "required_field": "This field is required",
+    "email_incorrect": "Invalid email address",
+    "phone_incorrect": "Invalid phone number",
+    "postal_incorrect": "Invalid postal code"
+  },
+  "cases": {
+    "requirements": "Wymagania podstawowe",
+    "download_document": "Pobierz dokument",
+    "download_example": "Pobierz przykład",
+    "mark_done": "Oznacz ukończone",
+    "show_more": "Szczegóły",
+    "ask_question": "Zadaj pytanie",
+    "completed_document": "Ukończono dokument",
+    "rating": "Oceń przydatność tych informacji",
+    "license_exchange": "Wymiana prawa jazdy",
+    "tasks": "Cele",
+    "procedures_docs": "Dokumentacja procedury",
+    "answers": "Odpowiedzi",
+    "consultations": "Konsultacje",
+    "payment": "Opłata",
+    "faq": "Faq",
+    "notifications": "Powiadomienia",
+    "instructions": "Instrukcje",
+    "document_example": "Przykład dokumentu",
+    "request_number": "Numer aplikacji",
+    "statuses": {
+      "to_be_done": "Do zrobienia",
+      "in_review": "Na kontrolę",
+      "not_available": "Niedostępne",
+      "done": "Zrobione",
+      "rejected": "Odrzucony"
+    }
+  }
+}
