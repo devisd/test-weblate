@@ -1,654 +1,654 @@
 {
-  "index": {
-    "metadata": {
-      "title": "Home page",
-      "description": "Learn about the mission of the FROG Foundation: support for foreigners in Poland, cooperation with public authorities, implementation of integration projects. Visit nadiia.pl for advice and generated documents."
+    "index": {
+        "metadata": {
+            "title": "Home page",
+            "description": "Learn about the mission of the FROG Foundation: support for foreigners in Poland, cooperation with public authorities, implementation of integration projects. Visit nadiia.pl for advice and generated documents."
+        },
+        "title": "Next App",
+        "auth_by_tel": "Phone number authentication",
+        "await_sms": "Within 3 minutes, an SMS code will be sent to the number % you provided. Please enter the code.",
+        "old_sms": "An SMS code has already been sent to the number % you provided. Please enter the code.",
+        "new_sms": "A new SMS code has been sent to the specified number %. Please enter the code.",
+        "enter_phone": "Please enter your % Polish % phone number to receive the SMS code",
+        "check_active_phone": "Please note that the phone number % must be activated %",
+        "pattern_phone": "Please enter a 9-digit Polish phone number",
+        "get_code": "Get code",
+        "required_field": "This field is required",
+        "await_send_new_code": "You can resend the code in",
+        "send_new_code": "Send new code",
+        "change_tel": "Go back and enter a different phone number",
+        "confirm": "Confirm",
+        "supported_by": "Supported by"
     },
-    "title": "Next App",
-    "auth_by_tel": "Phone number authentication",
-    "await_sms": "Within 3 minutes, an SMS code will be sent to the number % you provided. Please enter the code.",
-    "old_sms": "An SMS code has already been sent to the number % you provided. Please enter the code.",
-    "new_sms": "A new SMS code has been sent to the specified number %. Please enter the code.",
-    "enter_phone": "Please enter your % Polish % phone number to receive the SMS code",
-    "check_active_phone": "Please note that the phone number % must be activated %",
-    "pattern_phone": "Please enter a 9-digit Polish phone number",
-    "get_code": "Get code",
-    "required_field": "This field is required",
-    "await_send_new_code": "You can resend the code in",
-    "send_new_code": "Send new code",
-    "change_tel": "Go back and enter a different phone number",
-    "confirm": "Confirm",
-    "supported_by": "Supported by"
-  },
-  "header": {
-    "auth": {
-      "login": "Log in",
-      "register": "Register",
-      "form": {
-        "phone_entry": "Enter your <span>Polish</span> phone number to receive an SMS code",
-        "phone_activation": "Please note that the phone number <span>must</span> be activated</span>",
-        "SMS_receipt_start": "Within 3 minutes an SMS code will be sent to the ",
-        "SMS_receipt_end": " number you provided. Please, enter the code",
-        "code_entry_start": "An SMS code has already been sent to the ",
-        "code_entry_end": " number you specified earlier. Please enter the code",
-        "new_code_start": "A new SMS code has been sent to the specified number ",
-        "new_code_end": " Please enter the code"
-      }
+    "header": {
+        "auth": {
+            "login": "Log in",
+            "register": "Register",
+            "form": {
+                "phone_entry": "Enter your <span>Polish</span> phone number to receive an SMS code",
+                "phone_activation": "Please note that the phone number <span>must</span> be activated</span>",
+                "SMS_receipt_start": "Within 3 minutes an SMS code will be sent to the ",
+                "SMS_receipt_end": " number you provided. Please, enter the code",
+                "code_entry_start": "An SMS code has already been sent to the ",
+                "code_entry_end": " number you specified earlier. Please enter the code",
+                "new_code_start": "A new SMS code has been sent to the specified number ",
+                "new_code_end": " Please enter the code"
+            }
+        },
+        "burger": "Menu",
+        "menu": {
+            "procedures": "Procedures",
+            "services": "Services",
+            "consultations": "Consultations",
+            "courses": "Courses",
+            "knowledge_base": "Knowledge base",
+            "quit": "Logout",
+            "btn_green": "Consultation Booking",
+            "btn_blue": "Polish Courses for 0 PLN"
+        }
     },
-    "burger": "Menu",
-    "menu": {
-      "procedures": "Procedures",
-      "services": "Services",
-      "consultations": "Consultations",
-      "courses": "Courses",
-      "knowledge_base": "Knowledge base",
-      "quit": "Logout",
-      "btn_green": "Consultation Booking",
-      "btn_blue": "Polish Courses for 0 PLN"
-    }
-  },
-  "social": {
-    "email": "Our email",
-    "facebook": "Our Facebook",
-    "instagram": "Our Instagram",
-    "telegram": "Our Telegram"
-  },
-  "footer": {
-    "description": "We help to solve integration problems in Poland",
-    "policy": {
-      "privacy": "Policy Privacy",
-      "cookies": "Policy Cookies",
-      "sale": "Terms of Sale",
-      "error_title": "Policy Page Error!"
+    "social": {
+        "email": "Our email",
+        "facebook": "Our Facebook",
+        "instagram": "Our Instagram",
+        "telegram": "Our Telegram"
     },
-    "section": "Section",
-    "foundation": "Foundation for Development „Beyond Borders” is Non-profit organization, registered in Poland, NIP 5213383683, KRS 0000249833, REGON 140432633."
-  },
-  "cookies": {
-    "content": "We collect cookies to analyze our website traffic and performance; we never collect any personal data.",
-    "read": "Read more",
-    "allow": "I accept all",
-    "disallow": "I do not accept"
-  },
-  "errors": {
-    "something_wrong": "Something wrong",
-    "error_saving_code": "Error saving the code, try again",
-    "already_have_active_code": "You already have an active code",
-    "incorrect_code": "Incorrect sms code provided",
-    "bad_data": "Incorrect data provided for making a request",
-    "many_change_numbers": "Number change is blocked, log in from previous numbers or try again later",
-    "many_codes_enter": "Attempts to enter the code are blocked, try again later",
-    "many_repeated_to_resend": "Exceeded the limit on resending codes in SMS. Try again later",
-    "error_response": "Error! Please try again",
-    "error_get_cases": "Failed to load the list of available tests",
-    "error_retry": "Try again!"
-  },
-  "login_page": {
-    "metadata": {
-      "title": "Sign in to your account by phone number",
-      "description": ""
-    }
-  },
-  "procedures": {
-    "metadata": {
-      "title": "My procedures",
-      "description": ""
+    "footer": {
+        "description": "We help to solve integration problems in Poland",
+        "policy": {
+            "privacy": "Policy Privacy",
+            "cookies": "Policy Cookies",
+            "sale": "Terms of Sale",
+            "error_title": "Policy Page Error!"
+        },
+        "section": "Section",
+        "foundation": "Foundation for Development „Beyond Borders” is Non-profit organization, registered in Poland, NIP 5213383683, KRS 0000249833, REGON 140432633."
     },
-    "all": {
-      "metadata": {
-        "title": "All procedures",
-        "description": ""
-      }
+    "cookies": {
+        "content": "We collect cookies to analyze our website traffic and performance; we never collect any personal data.",
+        "read": "Read more",
+        "allow": "I accept all",
+        "disallow": "I do not accept"
     },
-    "edit": {
-      "metadata": {
-        "title": "Edit - ",
-        "description": ""
-      }
+    "errors": {
+        "something_wrong": "Something wrong",
+        "error_saving_code": "Error saving the code, try again",
+        "already_have_active_code": "You already have an active code",
+        "incorrect_code": "Incorrect sms code provided",
+        "bad_data": "Incorrect data provided for making a request",
+        "many_change_numbers": "Number change is blocked, log in from previous numbers or try again later",
+        "many_codes_enter": "Attempts to enter the code are blocked, try again later",
+        "many_repeated_to_resend": "Exceeded the limit on resending codes in SMS. Try again later",
+        "error_response": "Error! Please try again",
+        "error_get_cases": "Failed to load the list of available tests",
+        "error_retry": "Try again!"
     },
-    "final_check": {
-      "metadata": {
-        "title": "Verification of responses provided for procedure ",
-        "description": ""
-      }
+    "login_page": {
+        "metadata": {
+            "title": "Sign in to your account by phone number",
+            "description": "…"
+        }
     },
-    "consent_page": {
-      "metadata": {
-        "title": " - Start",
-        "description": ""
-      }
+    "procedures": {
+        "metadata": {
+            "title": "My procedures",
+            "description": "…"
+        },
+        "all": {
+            "metadata": {
+                "title": "All procedures",
+                "description": "…"
+            }
+        },
+        "edit": {
+            "metadata": {
+                "title": "Edit - ",
+                "description": "…"
+            }
+        },
+        "final_check": {
+            "metadata": {
+                "title": "Verification of responses provided for procedure ",
+                "description": "…"
+            }
+        },
+        "consent_page": {
+            "metadata": {
+                "title": " - Start",
+                "description": "…"
+            }
+        },
+        "title": "Procedures",
+        "card": {
+            "details": "View details",
+            "start": "Take the test",
+            "time": "Approximate travel time % minutes",
+            "continue": "Continue checkout",
+            "thanks": "Thank you for taking the survey!",
+            "back_to_test": "Back to test selection",
+            "additional_information": "Additional information",
+            "application_number": "Application number",
+            "date_of_submission": "Date of submission",
+            "application_status": "Application status",
+            "completed": "Completed",
+            "editable": "Available for editing",
+            "download": "Download"
+        },
+        "option_menu": {
+            "archive": "Archive",
+            "duplicate": "Duplicate",
+            "rename": "Rename",
+            "delete": "Delete",
+            "btn_cancel": "Cancel",
+            "warning": "Are you sure you want to % this procedure?"
+        },
+        "tabs": {
+            "active": "Active",
+            "closed": "Closed",
+            "archive": "Archive"
+        },
+        "process_page": {
+            "metadata": {
+                "title": "Attention",
+                "description": "…"
+            },
+            "attention": "Attention!",
+            "unfinished_survey": "You already have an unfinished survey.",
+            "description": "The answers to the unfinished survey will be available in your personal account under the Procedures tab.",
+            "question": "Would you like to start a new survey?",
+            "new_survey": "Start a new survey"
+        },
+        "questions_page": {
+            "metadata": {
+                "title": "Questions section",
+                "description": "…"
+            },
+            "next_question": "Next question",
+            "previous_question": "Previous question",
+            "loading": "Loading ...",
+            "saving": "Saving ...",
+            "redirect": "Redirecting...",
+            "back_finish": "Go to list of answers",
+            "check_page": {
+                "title": "You have answered all the necessary questions. Please review your answers before completing the test.",
+                "page": "Page",
+                "your_answer": "Your answer:",
+                "edit_answer": "Edit answer",
+                "previous_page": "Previous page",
+                "next_page": "Next page",
+                "without_checking": "Finish without checking",
+                "finish": "Finish",
+                "save_new": "Save new answer",
+                "cancel": "Cancel correction"
+            }
+        },
+        "card_rating": {
+            "rating_thanks": "Thank you for your rating!",
+            "rating_text": "Please rate how understandable this question was",
+            "clear": "Everything is clear",
+            "not_clear": "Nothing is unclear"
+        },
+        "request_form": {
+            "title": "Didn't find a suitable procedure for you?",
+            "subtitle": "You can notify us about your problem by filling out this form and we will find a solution for you.",
+            "placeholder": "Describe your situation and which procedure interests you",
+            "label": "Your email",
+            "submit": "Request a procedure"
+        },
+        "filter": {
+            "more": "More",
+            "placeholder": "Filter by categories",
+            "reset": "Reset all",
+            "apply": "Apply"
+        },
+        "big": {
+            "start": "Start the test",
+            "back": "Back to description",
+            "request_access": "Request access",
+            "input_email": "Enter your email and we will notify you when the procedure opens",
+            "send": "Send",
+            "confirm_title": "Email successfully sent",
+            "confirm_text": "We will send an email to the address you provided as soon as the procedure becomes available for completion",
+            "code_text": "If you already have an access code, enter it below",
+            "code_error": "Invalid code",
+            "notice_btn": "Notify about opening"
+        },
+        "cards": {
+            "category": "Category",
+            "share": "Share",
+            "from": "from",
+            "up_to": "up to",
+            "minutes": "minutes",
+            "to_all_procedures": "Go to all procedures",
+            "go": "Go",
+            "for_whom": "for whom",
+            "number_of_procedures": "number of procedures",
+            "you_learn": "what will you learn"
+        },
+        "title_all": "Please select the test you wish to take",
+        "disclaimer_sm_title": "Test description and some additional information",
+        "disclaimer_sm_btn": "Continue",
+        "privacy_default_title": "I accept terms and conditions of the test",
+        "found_an_error": "Found an error? Let us know",
+        "add_new_procedure": "Add a new procedure",
+        "interesting": "You might find this interesting",
+        "category": "Categories",
+        "back_to_procedure": "Go to procedure",
+        "feedbacks": {
+            "title": "Report an issue",
+            "description": "Please describe the problem you encountered while using our website. Your detailed explanation will help us improve the website.",
+            "name": "Enter your name (in Latin letters)",
+            "placeholder_name": "Name",
+            "email": "Enter your email",
+            "text": "Describe the problem",
+            "privacy": "I consent to the processing of my personal data"
+        }
     },
-    "title": "Procedures",
-    "card": {
-      "details": "View details",
-      "start": "Take the test",
-      "time": "Approximate travel time % minutes",
-      "continue": "Continue checkout",
-      "thanks": "Thank you for taking the survey!",
-      "back_to_test": "Back to test selection",
-      "additional_information": "Additional information",
-      "application_number": "Application number",
-      "date_of_submission": "Date of submission",
-      "application_status": "Application status",
-      "completed": "Completed",
-      "editable": "Available for editing",
-      "download": "Download"
+    "qa_page": {
+        "metadata": {
+            "title": "Questions and Answers",
+            "description": "Looking for answers to legal or specialized questions? Our 'Questions & Answers' page offers professional answers from qualified lawyers and specialists. Ask your question and receive reliable, accurate and clear explanations. This page is a valuable resource for anyone seeking information and solutions in a variety of areas, including legal and specialized topics. Use the convenient form to submit your question and join a community that receives accessible and reliable answers."
+        },
+        "title": "Questions and Answers",
+        "subtitle": "QA",
+        "error_title": "QA Page Error!",
+        "card": {
+            "see_more": "See more:",
+            "updeted": "Updated "
+        },
+        "form": {
+            "title": "Ask us a question",
+            "email": "Type your e-mail",
+            "text": "Describe your question",
+            "consent": "Consent to the processing of personal data",
+            "submit": "Send"
+        },
+        "success": {
+            "thank": "Thank you!",
+            "info": "Your question was successfully sent. We will notify you as soon as the answer is ready."
+        },
+        "toggle_hide": "Hide",
+        "toggle_view": "View more"
     },
-    "option_menu": {
-      "archive": "Archive",
-      "duplicate": "Duplicate",
-      "rename": "Rename",
-      "delete": "Delete",
-      "btn_cancel": "Cancel",
-      "warning": "Are you sure you want to % this procedure?"
+    "organizations": {
+        "metadata": {
+            "title": "Organizations",
+            "description": "Looking for useful organizations and government offices in Poland? Our 'Organizations' page provides comprehensive information useful for foreigners, conveniently divided by region. Here you will find reliable and trusted contacts, help and support, and you can easily navigate through a variety of services. It is an ideal resource for those seeking orientation to local government and public institutions, as well as for foreigners in need of specialized help and information."
+        },
+        "error_title": "Organizations Page Error!",
+        "title": "Organizations",
+        "tabs": {
+            "search": "Search by",
+            "region": "Wojewodstwo, Gmina, Powiat",
+            "index": "Index"
+        },
+        "select": {
+            "wojewodstwo": "Wojewodstwo",
+            "powiat": "Powiat",
+            "gmina": "Gmina"
+        },
+        "button": {
+            "button": "Find",
+            "print": "Print",
+            "back": "Back to the other organizations"
+        },
+        "loading": "Loading...",
+        "card": {
+            "button": "Open on map",
+            "link": "More details",
+            "reaction": "Thank you for your reaction!",
+            "rating": {
+                "rating": "Please rate how useful the information about this organization was?",
+                "min": "Minimum",
+                "max": "Maximum"
+            },
+            "error": "Found an error? Let us know",
+            "rating_thanks": "Thank you for your rating!",
+            "add_new_procedure": "Add a new procedure",
+            "toggle_hide": "Hide",
+            "toggle_view": "View more"
+        }
     },
-    "tabs": {
-      "active": "Active",
-      "closed": "Closed",
-      "archive": "Archive"
-    },
-    "process_page": {
-      "metadata": {
-        "title": "Attention",
-        "description": ""
-      },
-      "attention": "Attention!",
-      "unfinished_survey": "You already have an unfinished survey.",
-      "description": "The answers to the unfinished survey will be available in your personal account under the Procedures tab.",
-      "question": "Would you like to start a new survey?",
-      "new_survey": "Start a new survey"
-    },
-    "questions_page": {
-      "metadata": {
-        "title": "Questions section",
-        "description": ""
-      },
-      "next_question": "Next question",
-      "previous_question": "Previous question",
-      "loading": "Loading ...",
-      "saving": "Saving ...",
-      "redirect": "Redirecting...",
-      "back_finish": "Go to list of answers",
-      "check_page": {
-        "title": "You have answered all the necessary questions. Please review your answers before completing the test.",
-        "page": "Page",
-        "your_answer": "Your answer:",
-        "edit_answer": "Edit answer",
-        "previous_page": "Previous page",
-        "next_page": "Next page",
-        "without_checking": "Finish without checking",
-        "finish": "Finish",
-        "save_new": "Save new answer",
-        "cancel": "Cancel correction"
-      }
-    },
-    "card_rating": {
-      "rating_thanks": "Thank you for your rating!",
-      "rating_text": "Please rate how understandable this question was",
-      "clear": "Everything is clear",
-      "not_clear": "Nothing is unclear"
-    },
-    "request_form": {
-      "title": "Didn't find a suitable procedure for you?",
-      "subtitle": "You can notify us about your problem by filling out this form and we will find a solution for you.",
-      "placeholder": "Describe your situation and which procedure interests you",
-      "label": "Your email",
-      "submit": "Request a procedure"
-    },
-    "filter": {
-      "more": "More",
-      "placeholder": "Filter by categories",
-      "reset": "Reset all",
-      "apply": "Apply"
-    },
-    "big": {
-      "start": "Start the test",
-      "back": "Back to description",
-      "request_access": "Request access",
-      "input_email": "Enter your email and we will notify you when the procedure opens",
-      "send": "Send",
-      "confirm_title": "Email successfully sent",
-      "confirm_text": "We will send an email to the address you provided as soon as the procedure becomes available for completion",
-      "code_text": "If you already have an access code, enter it below",
-      "code_error": "Invalid code",
-      "notice_btn": "Notify about opening"
-    },
-    "cards": {
-      "category": "Category",
-      "share": "Share",
-      "from": "from",
-      "up_to": "up to",
-      "minutes": "minutes",
-      "to_all_procedures": "Go to all procedures",
-      "go": "Go",
-      "for_whom": "for whom",
-      "number_of_procedures": "number of procedures",
-      "you_learn": "what will you learn"
-    },
-    "title_all": "Please select the test you wish to take",
-    "disclaimer_sm_title": "Test description and some additional information",
-    "disclaimer_sm_btn": "Continue",
-    "privacy_default_title": "I accept terms and conditions of the test",
-    "found_an_error": "Found an error? Let us know",
-    "add_new_procedure": "Add a new procedure",
-    "interesting": "You might find this interesting",
-    "category": "Categories",
-    "back_to_procedure": "Go to procedure",
-    "feedbacks": {
-      "title": "Report an issue",
-      "description": "Please describe the problem you encountered while using our website. Your detailed explanation will help us improve the website.",
-      "name": "Enter your name (in Latin letters)",
-      "placeholder_name": "Name",
-      "email": "Enter your email",
-      "text": "Describe the problem",
-      "privacy": "I consent to the processing of my personal data"
-    }
-  },
-  "qa_page": {
-    "metadata": {
-      "title": "Questions and Answers",
-      "description": "Looking for answers to legal or specialized questions? Our 'Questions & Answers' page offers professional answers from qualified lawyers and specialists. Ask your question and receive reliable, accurate and clear explanations. This page is a valuable resource for anyone seeking information and solutions in a variety of areas, including legal and specialized topics. Use the convenient form to submit your question and join a community that receives accessible and reliable answers."
-    },
-    "title": "Questions and Answers",
-    "subtitle": "",
-    "error_title": "QA Page Error!",
-    "card": {
-      "see_more": "See more:",
-      "updeted": "Updated "
-    },
-    "form": {
-      "title": "Ask us a question",
-      "email": "Type your e-mail",
-      "text": "Describe your question",
-      "consent": "Consent to the processing of personal data",
-      "submit": "Send"
-    },
-    "success": {
-      "thank": "Thank you!",
-      "info": "Your question was successfully sent. We will notify you as soon as the answer is ready."
-    },
-    "toggle_hide": "Hide",
-    "toggle_view": "View more"
-  },
-  "organizations": {
-    "metadata": {
-      "title": "Organizations",
-      "description": "Looking for useful organizations and government offices in Poland? Our 'Organizations' page provides comprehensive information useful for foreigners, conveniently divided by region. Here you will find reliable and trusted contacts, help and support, and you can easily navigate through a variety of services. It is an ideal resource for those seeking orientation to local government and public institutions, as well as for foreigners in need of specialized help and information."
-    },
-    "error_title": "Organizations Page Error!",
-    "title": "Organizations",
-    "tabs": {
-      "search": "Search by",
-      "region": "Wojewodstwo, Gmina, Powiat",
-      "index": "Index"
-    },
-    "select": {
-      "wojewodstwo": "Wojewodstwo",
-      "powiat": "Powiat",
-      "gmina": "Gmina"
-    },
-    "button": {
-      "button": "Find",
-      "print": "Print",
-      "back": "Back to the other organizations"
-    },
-    "loading": "Loading...",
-    "card": {
-      "button": "Open on map",
-      "link": "More details",
-      "reaction": "Thank you for your reaction!",
-      "rating": {
-        "rating": "Please rate how useful the information about this organization was?",
-        "min": "Minimum",
-        "max": "Maximum"
-      },
-      "error": "Found an error? Let us know",
-      "rating_thanks": "Thank you for your rating!",
-      "add_new_procedure": "Add a new procedure",
-      "toggle_hide": "Hide",
-      "toggle_view": "View more"
-    }
-  },
-  "consultations": {
-    "metadata": {
-      "title": "Appointment for consultation",
-      "description": "",
-      "slug_title": "Counseling:",
-      "slug_description": ""
-    },
-    "title": "Consultations",
-    "error_title": "Consultations Page Error!",
-    "tabs": {
-      "new": "New",
-      "active": "Assigned",
-      "past": "Past"
-    },
-    "loading": "Loading...",
-    "error": "Error! Try again.",
-    "empty": "There are currently no consultations in this category",
-    "card": {
-      "title": "Consultation with a lawyer",
-      "when": "When",
-      "lawyer": "Lawyer",
-      "status": "Status",
-      "where": "Where",
-      "duration": "Duration",
-      "tariff": "Tariff",
-      "select": "Select",
-      "about": "About",
-      "languages": "Languages",
-      "time": "Soon",
-      "include": "What includes",
-      "exclude": "What does not include",
-      "or": "or",
-      "minutes": "minutes",
-      "consultation_link": "Appointment: link/address"
-    },
-    "booking": "Booking",
-    "booking_consultation": "Booking consultation",
-    "new": {
-      "tariff": "Selected tariff",
-      "select": {
-        "languages": "Select possible languages",
-        "format": "Choose a consultation format",
-        "specialist": "Choose a specialist",
-        "placeholder": "Click to select",
-        "datetime": "Select date and time",
-        "button": "Select"
-      },
-      "date": "Select date and time",
-      "empty": "Select a date to see the appointment time slots for the selected counseling session.",
-      "confirmation": {
-        "format": "Consultation Format",
-        "languages": "Available languages",
-        "specialist": "Selected Specialist",
-        "datetime": "Selected date and time",
-        "duration": "Duration of the consultation",
-        "disclaimer": "Disclaimer",
-        "submit": "Submit",
-        "notfound": "notfound",
-        "error": "Error"
-      },
-      "success": {
-        "created": "Your registration was successful!",
-        "link": "View entry"
-      },
-      "slot": {
-        "online": "Online",
-        "office": "In office"
-      }
+    "consultations": {
+        "metadata": {
+            "title": "Appointment for consultation",
+            "description": "",
+            "slug_title": "Counseling:",
+            "slug_description": ""
+        },
+        "title": "Consultations",
+        "error_title": "Consultations Page Error!",
+        "tabs": {
+            "new": "New",
+            "active": "Assigned",
+            "past": "Past"
+        },
+        "loading": "Loading...",
+        "error": "Error! Try again.",
+        "empty": "There are currently no consultations in this category",
+        "card": {
+            "title": "Consultation with a lawyer",
+            "when": "When",
+            "lawyer": "Lawyer",
+            "status": "Status",
+            "where": "Where",
+            "duration": "Duration",
+            "tariff": "Tariff",
+            "select": "Select",
+            "about": "About",
+            "languages": "Languages",
+            "time": "Soon",
+            "include": "What includes",
+            "exclude": "What does not include",
+            "or": "or",
+            "minutes": "minutes",
+            "consultation_link": "Appointment: link/address"
+        },
+        "booking": "Booking",
+        "booking_consultation": "Booking consultation",
+        "new": {
+            "tariff": "Selected tariff",
+            "select": {
+                "languages": "Select possible languages",
+                "format": "Choose a consultation format",
+                "specialist": "Choose a specialist",
+                "placeholder": "Click to select",
+                "datetime": "Select date and time",
+                "button": "Select"
+            },
+            "date": "Select date and time",
+            "empty": "Select a date to see the appointment time slots for the selected counseling session.",
+            "confirmation": {
+                "format": "Consultation Format",
+                "languages": "Available languages",
+                "specialist": "Selected Specialist",
+                "datetime": "Selected date and time",
+                "duration": "Duration of the consultation",
+                "disclaimer": "Disclaimer",
+                "submit": "Submit",
+                "notfound": "notfound",
+                "error": "Error"
+            },
+            "success": {
+                "created": "Your registration was successful!",
+                "link": "View entry"
+            },
+            "slot": {
+                "online": "Online",
+                "office": "In office"
+            }
+        },
+        "payment": {
+            "loading": {
+                "title": "Receiving booking details",
+                "details": "You might need the text here too lorem ipsum dolor sit amet consectetur"
+            },
+            "error": {
+                "title": "Error",
+                "details": "More text",
+                "button": "Try Again"
+            },
+            "canceled": {
+                "title": "Reservation canceled",
+                "details": "Explanation text and encouragement to click the button below to come back and try again"
+            },
+            "expired": {
+                "title": "This link has expired. Re-book your reservation and try again",
+                "details": "Explanation text and an encouragement to click the button below to come back and try again"
+            },
+            "success": {
+                "title": "Your payment was successful!",
+                "details": "Just close this page or click the button below to review your counseling.",
+                "button": "My Consultations"
+            }
+        }
     },
     "payment": {
-      "loading": {
-        "title": "Receiving booking details",
-        "details": "You might need the text here too lorem ipsum dolor sit amet consectetur"
-      },
-      "error": {
-        "title": "Error",
-        "details": "More text",
-        "button": "Try Again"
-      },
-      "canceled": {
-        "title": "Reservation canceled",
-        "details": "Explanation text and encouragement to click the button below to come back and try again"
-      },
-      "expired": {
-        "title": "This link has expired. Re-book your reservation and try again",
-        "details": "Explanation text and an encouragement to click the button below to come back and try again"
-      },
-      "success": {
-        "title": "Your payment was successful!",
-        "details": "Just close this page or click the button below to review your counseling.",
-        "button": "My Consultations"
-      }
+        "customer": "Customer data",
+        "required": "Required field",
+        "first_name": "First name",
+        "last_name": "Last name",
+        "email": "E-mail",
+        "phone": "Phone number",
+        "other": "Other payer",
+        "invoice": "Need an invoice",
+        "legal": "Legal entity",
+        "company_name": "Company name",
+        "address": "Address",
+        "post": "Postal code",
+        "city": "City",
+        "country": "Country",
+        "individual": "Individual person",
+        "promo": "Have a promo code",
+        "promo_enter": "Enter promo code",
+        "apply": "Apply",
+        "promo_success": "Promo code successfully applied",
+        "invalid": "Invalid code",
+        "without_discount": "Amount without discount",
+        "discount": "Discount",
+        "total": "Total",
+        "pay": "Pay",
+        "cancel": "Cancel",
+        "payment_link": "Go to the site of the payment system",
+        "timer": {
+            "title": "Please complete your payment within the time specified",
+            "expired": "The link has expired. Re-book your reservation and try again"
+        }
+    },
+    "privacy": {
+        "metadata": {
+            "title": "rivacy Policy",
+            "description": ""
+        },
+        "title": "Privacy Policy",
+        "content": "Table of content:"
+    },
+    "C": {
+        "metadata": {
+            "title": "Thematic sections",
+            "description": "",
+            "slug_title": " - articles",
+            "slug_description": ""
+        },
+        "title": "Thematic sections",
+        "moreBtn": "Read more",
+        "formulars": "Formulars",
+        "last_update": "Last Update",
+        "error_title": "Formulars Page Error!",
+        "error_text": "Thematica Page Error!"
+    },
+    "sale_page": {
+        "metadata": {
+            "title": "Terms of Sale",
+            "description": ""
+        },
+        "error_title": "QA Page Error!"
+    },
+    "glossary": {
+        "metadata": {
+            "title": "Word Definitions",
+            "description": ""
+        },
+        "title": "WORD DEFINITIONS",
+        "placeholder": "Start typing",
+        "error_title": "Glossary Page Error!",
+        "note": "Editor's Note",
+        "exclamation": "This exclamation is not a legal interpretation and is not an editor's opinion to simplify understanding of the basic definition.",
+        "info": "You may find these definitions useful"
+    },
+    "formulars": {
+        "metadata": {
+            "title": "Formulars",
+            "description": "",
+            "slug_title": " - Formulary",
+            "slug_description": ""
+        },
+        "title": "Formulars",
+        "download": "Download the document",
+        "hide": "Hide",
+        "view": "Show more",
+        "additional": "Additional documents to this formular",
+        "similar": "Similar formulars",
+        "categories": "Categories"
+    },
+    "about": {
+        "metadata": {
+            "title": "About us",
+            "description": "Learn about the mission of the FROG Foundation: support for foreigners in Poland, cooperation with public authorities, implementation of integration projects. Visit nadiia.pl for advice and generated documents."
+        },
+        "title": "About us",
+        "content": "Table of content:",
+        "error_title": "About Us Page Error!"
+    },
+    "legislation": {
+        "metadata": {
+            "title": "Legislation",
+            "description": ""
+        },
+        "title": "Legislation",
+        "hide": "Hide",
+        "view": "Show more",
+        "categories": "Categories",
+        "error_title": "Legislation Page Error!"
+    },
+    "news": {
+        "published_date": "Published on",
+        "updated_date": "Updated on",
+        "slider_title": "Read related news",
+        "slider_main": "Latest posts about the foundation",
+        "show_all": "Show all",
+        "rating": {
+            "text": "Please let us know how useful this news was",
+            "not_interesting": "Not interesting",
+            "very_interesting": "Very interesting"
+        },
+        "socials": "Share it on",
+        "latest_page": {
+            "metadata": {
+                "title": "Latest",
+                "description": "This is where we write about current and useful topics and events that may be of interest to you"
+            }
+        },
+        "blog_page": {
+            "metadata": {
+                "title": "Our blog",
+                "description": "This is where we write about current and useful topics and events that may be of interest to you"
+            }
+        },
+        "news_page": {
+            "metadata": {
+                "title": "Our news",
+                "description": "This is where we write about current and useful topics and events that may be of interest to you"
+            }
+        },
+        "title_all": "Latest",
+        "title_blog": "Our blog",
+        "title_news": "Our news",
+        "subtitle": "Here we write about the latest and useful topics and events that may interest you",
+        "error_title": "News Page Error!",
+        "tabs": {
+            "all": "All",
+            "blog": "Blog",
+            "news": "News"
+        },
+        "read": "Read",
+        "tags": "Explore related topics",
+        "next": "Next article",
+        "previous": "Previous article"
+    },
+    "profile": {
+        "button_edit": "Edit data",
+        "button_delete": "Delete account",
+        "settings": "Settings",
+        "support": "Support",
+        "safety": "Safety and privacy",
+        "notifications_settings": "Notifications settings",
+        "favorites": "Favorites",
+        "title": "My account",
+        "name": "Name",
+        "surname": "Surname",
+        "tel": "Phone",
+        "email": "E-mail",
+        "button_save": "Save",
+        "text": "Enter new data and press the Save button",
+        "error_title": "Profile Page Error!",
+        "success_text": "New data successfully saved",
+        "adding_email": {
+            "button_add": "Add e-mail",
+            "button_change": "Change e-mail",
+            "text_adding_email": "Please add an email to your account to access all pages of the website",
+            "text_email_confirm": "A confirmation email has been sent to this email address. Click the link and press the “Confirm” button. If you haven’t received the email, request.",
+            "text_email_confirm_resend": "The confirmation email has been resent. If you did not receive the email, please contact us at ",
+            "text_email_confirm_resend_end": " to resolve the problem.",
+            "repeat_email_link": "Resend",
+            "email_settings": "Email Settings",
+            "error_text": "Email name incorrect"
+        },
+        "success_page": {
+            "success_text": "Simply close this vladka or click the button below to go to your personal account",
+            "success_title": "Email has been confirmed successfully!",
+            "button": "Personal account"
+        }
+    },
+    "notification_form": {
+        "attention": {
+            "title": "Attention!",
+            "subtitle": "You don't have an e-mail linked to your account",
+            "text": "Press the button below to add an e-mail now or go to your ",
+            "link": "personal account",
+            "btn_blue": "Link e-mail now"
+        },
+        "input": {
+            "title": "Enter your email",
+            "checkbox": "By clicking the send button, you agree to the processing of ",
+            "link": "personal data",
+            "btn_blue": "Send an email"
+        },
+        "confirm": {
+            "title": "Email sent",
+            "text": "An email with a confirmation link has been sent to your email address {email}. Please open the email and follow the link to confirm."
+        },
+        "error": {
+            "title": "Confirmation error",
+            "text": "Your confirmation link visit was not recorded (please visit the link again and press the button again). If you haven't received the email, {link} and try to link your email again.",
+            "link": "go to your personal account"
+        },
+        "btn_confirm": "I have confirmed",
+        "btn_loading": "In process",
+        "btn_back": "Go back"
+    },
+    "form": {
+        "required_field": "This field is required",
+        "email_incorrect": "Invalid email address",
+        "phone_incorrect": "Invalid phone number",
+        "postal_incorrect": "Invalid postal code"
+    },
+    "cases": {
+        "requirements": "Basic requirements",
+        "download_document": "Download document",
+        "download_example": "Download example",
+        "mark_done": "Mark completed",
+        "show_more": "Show more",
+        "ask_question": "Ask question",
+        "completed_document": "Completed your document",
+        "rating": "Please rate how useful this information has been",
+        "license_exchange": "Driver's license exchange",
+        "tasks": "Tasks",
+        "procedures_docs": "Procedure documents",
+        "answers": "Answers",
+        "consultations": "Consultations",
+        "payment": "Payment",
+        "faq": "Faq",
+        "notifications": "Notifications",
+        "instructions": "Instructions",
+        "document_example": "Document example",
+        "request_number": "Request number",
+        "statuses": {
+            "to_be_done": "In progress",
+            "in_review": "On review",
+            "not_available": "Unavailable",
+            "done": "Done",
+            "rejected": "Rejected"
+        }
     }
-  },
-  "payment": {
-    "customer": "Customer data",
-    "required": "Required field",
-    "first_name": "First name",
-    "last_name": "Last name",
-    "email": "E-mail",
-    "phone": "Phone number",
-    "other": "Other payer",
-    "invoice": "Need an invoice",
-    "legal": "Legal entity",
-    "company_name": "Company name",
-    "address": "Address",
-    "post": "Postal code",
-    "city": "City",
-    "country": "Country",
-    "individual": "Individual person",
-    "promo": "Have a promo code",
-    "promo_enter": "Enter promo code",
-    "apply": "Apply",
-    "promo_success": "Promo code successfully applied",
-    "invalid": "Invalid code",
-    "without_discount": "Amount without discount",
-    "discount": "Discount",
-    "total": "Total",
-    "pay": "Pay",
-    "cancel": "Cancel",
-    "payment_link": "Go to the site of the payment system",
-    "timer": {
-      "title": "Please complete your payment within the time specified",
-      "expired": "The link has expired. Re-book your reservation and try again"
-    }
-  },
-  "privacy": {
-    "metadata": {
-      "title": "rivacy Policy",
-      "description": ""
-    },
-    "title": "Privacy Policy",
-    "content": "Table of content:"
-  },
-  "C": {
-    "metadata": {
-      "title": "Thematic sections",
-      "description": "",
-      "slug_title": " - articles",
-      "slug_description": ""
-    },
-    "title": "Thematic sections",
-    "moreBtn": "Read more",
-    "formulars": "Formulars",
-    "last_update": "Last Update",
-    "error_title": "Formulars Page Error!",
-    "error_text": "Thematica Page Error!"
-  },
-  "sale_page": {
-    "metadata": {
-      "title": "Terms of Sale",
-      "description": ""
-    },
-    "error_title": "QA Page Error!"
-  },
-  "glossary": {
-    "metadata": {
-      "title": "Word Definitions",
-      "description": ""
-    },
-    "title": "WORD DEFINITIONS",
-    "placeholder": "Start typing",
-    "error_title": "Glossary Page Error!",
-    "note": "Editor's Note",
-    "exclamation": "This exclamation is not a legal interpretation and is not an editor's opinion to simplify understanding of the basic definition.",
-    "info": "You may find these definitions useful"
-  },
-  "formulars": {
-    "metadata": {
-      "title": "Formulars",
-      "description": "",
-      "slug_title": " - Formulary",
-      "slug_description": ""
-    },
-    "title": "Formulars",
-    "download": "Download the document",
-    "hide": "Hide",
-    "view": "Show more",
-    "additional": "Additional documents to this formular",
-    "similar": "Similar formulars",
-    "categories": "Categories"
-  },
-  "about": {
-    "metadata": {
-      "title": "About us",
-      "description": "Learn about the mission of the FROG Foundation: support for foreigners in Poland, cooperation with public authorities, implementation of integration projects. Visit nadiia.pl for advice and generated documents."
-    },
-    "title": "About us",
-    "content": "Table of content:",
-    "error_title": "About Us Page Error!"
-  },
-  "legislation": {
-    "metadata": {
-      "title": "Legislation",
-      "description": ""
-    },
-    "title": "Legislation",
-    "hide": "Hide",
-    "view": "Show more",
-    "categories": "Categories",
-    "error_title": "Legislation Page Error!"
-  },
-  "news": {
-    "published_date": "Published on",
-    "updated_date": "Updated on",
-    "slider_title": "Read related news",
-    "slider_main": "Latest posts about the foundation",
-    "show_all": "Show all",
-    "rating": {
-      "text": "Please let us know how useful this news was",
-      "not_interesting": "Not interesting",
-      "very_interesting": "Very interesting"
-    },
-    "socials": "Share it on",
-    "latest_page": {
-      "metadata": {
-        "title": "Latest",
-        "description": "This is where we write about current and useful topics and events that may be of interest to you"
-      }
-    },
-    "blog_page": {
-      "metadata": {
-        "title": "Our blog",
-        "description": "This is where we write about current and useful topics and events that may be of interest to you"
-      }
-    },
-    "news_page": {
-      "metadata": {
-        "title": "Our news",
-        "description": "This is where we write about current and useful topics and events that may be of interest to you"
-      }
-    },
-    "title_all": "Latest",
-    "title_blog": "Our blog",
-    "title_news": "Our news",
-    "subtitle": "Here we write about the latest and useful topics and events that may interest you",
-    "error_title": "News Page Error!",
-    "tabs": {
-      "all": "All",
-      "blog": "Blog",
-      "news": "News"
-    },
-    "read": "Read",
-    "tags": "Explore related topics",
-    "next": "Next article",
-    "previous": "Previous article"
-  },
-  "profile": {
-    "button_edit": "Edit data",
-    "button_delete": "Delete account",
-    "settings": "Settings",
-    "support": "Support",
-    "safety": "Safety and privacy",
-    "notifications_settings": "Notifications settings",
-    "favorites": "Favorites",
-    "title": "My account",
-    "name": "Name",
-    "surname": "Surname",
-    "tel": "Phone",
-    "email": "E-mail",
-    "button_save": "Save",
-    "text": "Enter new data and press the Save button",
-    "error_title": "Profile Page Error!",
-    "success_text": "New data successfully saved",
-    "adding_email": {
-      "button_add": "Add e-mail",
-      "button_change": "Change e-mail",
-      "text_adding_email": "Please add an email to your account to access all pages of the website",
-      "text_email_confirm": "A confirmation email has been sent to this email address. Click the link and press the “Confirm” button. If you haven’t received the email, request.",
-      "text_email_confirm_resend": "The confirmation email has been resent. If you did not receive the email, please contact us at ",
-      "text_email_confirm_resend_end": " to resolve the problem.",
-      "repeat_email_link": "Resend",
-      "email_settings": "Email Settings",
-      "error_text": "Email name incorrect"
-    },
-    "success_page": {
-      "success_text": "Simply close this vladka or click the button below to go to your personal account",
-      "success_title": "Email has been confirmed successfully!",
-      "button": "Personal account"
-    }
-  },
-  "notification_form": {
-    "attention": {
-      "title": "Attention!",
-      "subtitle": "You don't have an e-mail linked to your account",
-      "text": "Press the button below to add an e-mail now or go to your ",
-      "link": "personal account",
-      "btn_blue": "Link e-mail now"
-    },
-    "input": {
-      "title": "Enter your email",
-      "checkbox": "By clicking the send button, you agree to the processing of ",
-      "link": "personal data",
-      "btn_blue": "Send an email"
-    },
-    "confirm": {
-      "title": "Email sent",
-      "text": "An email with a confirmation link has been sent to your email address {email}. Please open the email and follow the link to confirm."
-    },
-    "error": {
-      "title": "Confirmation error",
-      "text": "Your confirmation link visit was not recorded (please visit the link again and press the button again). If you haven't received the email, {link} and try to link your email again.",
-      "link": "go to your personal account"
-    },
-    "btn_confirm": "I have confirmed",
-    "btn_loading": "In process",
-    "btn_back": "Go back"
-  },
-  "form": {
-    "required_field": "This field is required",
-    "email_incorrect": "Invalid email address",
-    "phone_incorrect": "Invalid phone number",
-    "postal_incorrect": "Invalid postal code"
-  },
-  "cases": {
-    "requirements": "Basic requirements",
-    "download_document": "Download document",
-    "download_example": "Download example",
-    "mark_done": "Mark completed",
-    "show_more": "Show more",
-    "ask_question": "Ask question",
-    "completed_document": "Completed your document",
-    "rating": "Please rate how useful this information has been",
-    "license_exchange": "Driver's license exchange",
-    "tasks": "Tasks",
-    "procedures_docs": "Procedure documents",
-    "answers": "Answers",
-    "consultations": "Consultations",
-    "payment": "Payment",
-    "faq": "Faq",
-    "notifications": "Notifications",
-    "instructions": "Instructions",
-    "document_example": "Document example",
-    "request_number": "Request number",
-    "statuses": {
-      "to_be_done": "In progress",
-      "in_review": "On review",
-      "not_available": "Unavailable",
-      "done": "Done",
-      "rejected": "Rejected"
-    }
-  }
 }
